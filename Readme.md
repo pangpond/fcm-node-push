@@ -6,6 +6,7 @@ A Node.JS simple interface for test push notification with FCM
 ## Installation
 
     $ git clone 
+    $ cd fcm-node-push
     $ yarn
     $ cp .env.example .env
     replace ```{YOURKEY}``` with your FIREBASE_KEY
@@ -14,7 +15,7 @@ A Node.JS simple interface for test push notification with FCM
 #### Terminal
 
 ```
-	$ npm start
+$ npm start
 ```
 
 
