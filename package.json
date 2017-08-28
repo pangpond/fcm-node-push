@@ -1,0 +1,24 @@
+{
+  "name": "fcm-node-push",
+  "version": "0.0.1",
+  "description": "node service for test push notification with FCM",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["fcm", "push", "node", "gcm"],
+  "author": "Nathawut Sonraksa",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "dotenv": "^4.0.0",
+    "dotenv-expand": "^0.1.0",
+    "express": "^4.14.1",
+    "fcm-node": "^1.0.16",
+    "fcm-push": "^1.1.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "https": "^1.0.0"
+  }
+}
